@@ -22,9 +22,6 @@ steps:
 - script: 'echo 3/10/2025
   displayName: Echo the date'
 
-- task: gulp@1
-  displayName: 'Run gulp tasks'
-
 - task: DotNetCoreCLI@2
   displayName: 'Restore project dependencies'
   inputs:
