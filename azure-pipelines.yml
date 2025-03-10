@@ -32,8 +32,6 @@ steps:
     projects: '**/*.csproj'
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-  condition: succeeded()
   inputs:
   PathtoPublish: '$(Build.ArtifactStagingDirectory)'
   ArtifactName: 'drop'
