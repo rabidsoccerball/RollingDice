@@ -22,15 +22,12 @@ steps:
 - script: 'echo 3/10/2025
   displayName: Echo the date'
 
-- task: NuGetRestore@1
-  inputs:
-    solution: '**/*.sln'
-    selectOrConfig: 'select'
+
 
 - task: DotNetCoreCLI@2
-  displayName: 'Build the project - Release'
+  displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
   inputs:
     command: 'build'
-    arguments: '--no-restore --configuration Release'
+    arguments: '--no-restore --configuration ${{ parameters.buildConfiguration }}'
     projects: '**/*.csproj'
 
