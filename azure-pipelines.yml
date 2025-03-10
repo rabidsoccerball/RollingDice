@@ -29,7 +29,8 @@ steps:
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
 
-- task: Go@0
+- task: NuGetRestore@1
   inputs:
-  command: 'get'
+    solution: '**/*.sln'
+    selectOrConfig: 'select'
 
