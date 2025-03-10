@@ -23,15 +23,13 @@ steps:
   displayName: Echo the date'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Restore project dependencies'
-  inputs:
-    command: 'restore'
-    projects: '**/*.csproj'
-
-- task: DotNetCoreCLI@2
-  displayName: 'Build the project - Release'
+  displayName: 'Build the project'
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Release'
     projects: '**/*.csproj'
+
+- task: Go@0
+  inputs:
+  command: 'get'
 
