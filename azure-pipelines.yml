@@ -19,11 +19,6 @@ steps:
     packageType: sdk
     version: '6.x'
 
-- task: Npm@1
-  displayName: 'Run npm install'
-  inputs:
-    verbose: false
-
 - script: 'echo 3/10/2025
   displayName: Echo the date'
 
