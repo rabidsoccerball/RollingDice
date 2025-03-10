@@ -1,0 +1,14 @@
+F:\SDEV 2420\Module4\RollingDice\bin\Debug\net8.0\RollingDice.exe
+F:\SDEV 2420\Module4\RollingDice\bin\Debug\net8.0\RollingDice.deps.json
+F:\SDEV 2420\Module4\RollingDice\bin\Debug\net8.0\RollingDice.runtimeconfig.json
+F:\SDEV 2420\Module4\RollingDice\bin\Debug\net8.0\RollingDice.dll
+F:\SDEV 2420\Module4\RollingDice\bin\Debug\net8.0\RollingDice.pdb
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.GeneratedMSBuildEditorConfig.editorconfig
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.AssemblyInfoInputs.cache
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.AssemblyInfo.cs
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.csproj.CoreCompileInputs.cache
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.dll
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\refint\RollingDice.dll
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.pdb
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\RollingDice.genruntimeconfig.cache
+F:\SDEV 2420\Module4\RollingDice\obj\Debug\net8.0\ref\RollingDice.dll
