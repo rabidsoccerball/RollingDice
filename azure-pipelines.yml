@@ -14,10 +14,10 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET SDK 6.x'
+  displayName: 'Use .NET SDK 8.x'
   inputs:
     packageType: sdk
-    version: '6.x'
+    version: '8.x'
 
 - script: 'echo 3/10/2025
   displayName: Echo the date'
@@ -31,3 +31,6 @@ steps:
     arguments: '--no-restore --configuration $(buildConfiguration)'
     projects: '**/*.csproj'
 
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  condition: succeeded()
