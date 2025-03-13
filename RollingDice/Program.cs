@@ -7,7 +7,7 @@ namespace RollingDice
         static void Main(string[] args)
         {
             WriteLine("Ch23 Dice Rolls by Kyle Evenson");
-
+            WriteLine("Welcome to the Dice gam")
             DoWork();
 
 
